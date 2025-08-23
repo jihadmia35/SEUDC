@@ -22,18 +22,18 @@ const ResourcesPage: React.FC = () => {
     {
       id: 6,
       title: "Bangladesh 2.0",
-      description: "Learn about the principles of Islamic banking and finance in the modern world.",
+      description: "অবিস্মরণীয় এই গণজাগরণ পরবর্তি সময়ে, মুসলিমদের যা করতে হবে।",
       type: "video",
       category: "Islamic Socity",
       url: "https://www.youtube.com/watch?v=AM-i6Qc-KxE",
       thumbnail: "https://i.ytimg.com/an_webp/AM-i6Qc-KxE/mqdefault_6s.webp?du=3000&sqp=CPTWpMUG&rs=AOn4CLB2SJxkVZtnzlEco-aiOF9J4P208A",
-      author: "Dr. Sarah Ahmed",
-      date: "2024-02-01"
+      author: "Baseera",
+      date: "2024-08-16"
     },
     {
       id: 2,
       title: "হারানো খিলাফত",
-      description: "Listen to the melodious recitation of Surah Al-Fatiha with English translation and commentary.",
+      description: "উনিশ শতকের শেষলগ্নে। উসমানীয় খিলাফতের একদম ভঙ্গুর অবস্থা। সেই সময় ফ্রান্স সরকার মুহাম্মাদ মুস্তফা সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম কে নিয়ে একটি ব্যঙ্গাত্মক নাটক মঞ্চস্থ করার পরিকল্পনা করে",
       type: "article",
       category: "History",
       url: "https://hoytoba.com/history/harano-khilafot",
@@ -44,7 +44,7 @@ const ResourcesPage: React.FC = () => {
     {
       id: 3,
       title: "সখী ভালোবাসা কারে কয়",
-      description: "A detailed PDF guide on applying Islamic ethical principles in contemporary society.",
+      description: "‘ভালোবাসা’ আমার জীবনের অপার বিস্ময়ের একটা শব্দ। সেই কৈশোর থেকে যখন বুঝতে শিখেছিলাম — আমি এই শব্দ দিয়েই পড়েছি কবিতা, সমস্ত গানেই পেয়েছি এই শব্দ। প্রথম পড়েছিলাম রোমিও-জুলিয়েট",
       type: "article",
       category: "Islamic Ethics",
       url: "https://hoytoba.com/sokhi-valobasha-kare-koy",
@@ -55,20 +55,20 @@ const ResourcesPage: React.FC = () => {
     {
       id: 4,
       title: "ডোপামিন ডিটক্স: নাফসকে নিয়ন্ত্রণে আনার উপায়",
-      description: "An inspiring video series about the life and teachings of Prophet Muhammad (Peace be upon him).",
+      description: "ইন্সট্যান্ট গ্র্যাটিফিকেশনের এই যুগে আমরা নাফসের দাসে পরিণত হয়েছি। নিজের নাফসের ওপর নিয়ন্ত্রণ ফিরে পেতে এবং ডোপামিন এর আসক্তি থেকে মুক্তির উপায় নিয়ে আজকের এই আলোচনা।",
       type: "video",
       category: "Productive",
       url: "https://youtu.be/SFWPfq21x_s?si=Bf8E14xan5vhL4R2",
       thumbnail: "https://i.ytimg.com/an_webp/SFWPfq21x_s/mqdefault_6s.webp?du=3000&sqp=CLLipMUG&rs=AOn4CLCQio6flzNMGzD3ShxFZUNBOfeGMw",
-      author: "Sheikh Abdullah",
-      date: "2024-01-25"
+      author: "Baseera",
+      date: "2024-09-30"
     },
     {
       id: 5,
       title: "সংশয়",
-      description: "A collection of essential daily prayers and supplications with Arabic text and translations.",
+      description: "“তিনি আমাকে পর্দার বিধান নাযিল হওয়ার আগে দেখেছিলেন” - সহিহ বুখারী",
       type: "article",
-      category: "Duas",
+      category: "Hijab and Modesty",
       url: "https://hoytoba.com/pearl/songshoy",
       thumbnail: "https://cms.bibijaan.com/wp-content/uploads/2020/01/behind-prison-bars.jpg",
       author: "Islamic Center",
@@ -77,7 +77,7 @@ const ResourcesPage: React.FC = () => {
     {
       id: 1,
       title: "হাসবুনাল্লা-হু ওয়া নি'মাল ওয়াকীল",
-      description: "A comprehensive guide to understanding the fundamental pillars of Islamic faith and practice.",
+      description: "কট্টর ছাত্রলীগার একজনকে চিনতাম। আমরা যখন হলে উঠি তখন থেকেই একনামে তাকে সবাই চিনত। সবাই তার ভয়ে তটস্থ থাকতাম। ঢাবির হলে সিট বরাদ্ধ পেয়ে আরাম করে সেই সিটে উঠে পড়ার সিস্টেম নেই, ফার্স্ট ইয়ারে তো কল্পনাই করা যায় না",
       type: "article",
       category: "Spritual",
       url: "https://hoytoba.com/hasbunallahu-wanikmal-wakil",

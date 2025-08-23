@@ -58,12 +58,12 @@ const Footer: React.FC = () => {
               </a>
             </div>
             <div className="mt-6">
-              <h5 className="font-medium mb-2">Quick Links</h5>
+              {/* <h5 className="font-medium mb-2">Quick Links</h5>
               <div className="space-y-1">
                 <p className="text-sm text-gray-300">Join our community</p>
-                <p className="text-sm text-gray-300">Upcoming events</p>
+                <p className="text-sm text-gray-300" >Upcoming events</p>
                 <p className="text-sm text-gray-300">Islamic resources</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
