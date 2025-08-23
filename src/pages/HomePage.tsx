@@ -179,8 +179,8 @@ const HomePage: React.FC<HomePageProps> = ({ onPageChange }) => {
             {' '}
             <div>
               {' '}
-              <div className="text-4xl font-bold mb-2">10+</div>{' '}
-              <div className="text-teal-100">Active Members</div>{' '}
+              <div className="text-4xl font-bold mb-2">20+</div>{' '}
+              <div className="text-teal-100">Active Volunteers</div>{' '}
             </div>{' '}
             <div>
               {' '}
@@ -189,12 +189,12 @@ const HomePage: React.FC<HomePageProps> = ({ onPageChange }) => {
             </div>{' '}
             <div>
               {' '}
-              <div className="text-4xl font-bold mb-2">100+</div>{' '}
+              <div className="text-4xl font-bold mb-2">1000+</div>{' '}
               <div className="text-teal-100">Students Reached</div>{' '}
             </div>{' '}
             <div>
               {' '}
-              <div className="text-4xl font-bold mb-2">1+</div>{' '}
+              <div className="text-4xl font-bold mb-2">2+</div>{' '}
               <div className="text-teal-100">Years of Service</div>{' '}
             </div>{' '}
           </div>{' '}
