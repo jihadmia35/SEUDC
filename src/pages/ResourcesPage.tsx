@@ -26,7 +26,7 @@ const ResourcesPage: React.FC = () => {
       type: "video",
       category: "Islamic Socity",
       url: "https://www.youtube.com/watch?v=AM-i6Qc-KxE",
-      thumbnail: "https://i.ytimg.com/an_webp/AM-i6Qc-KxE/mqdefault_6s.webp?du=3000&sqp=CPTWpMUG&rs=AOn4CLB2SJxkVZtnzlEco-aiOF9J4P208A",
+      thumbnail: "https://i.ytimg.com/vi/AM-i6Qc-KxE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCymcbwASE4cTPc6724IECXodfbCA",
       author: "Baseera",
       date: "2024-08-16"
     },
@@ -59,7 +59,7 @@ const ResourcesPage: React.FC = () => {
       type: "video",
       category: "Productive",
       url: "https://youtu.be/SFWPfq21x_s?si=Bf8E14xan5vhL4R2",
-      thumbnail: "https://i.ytimg.com/an_webp/SFWPfq21x_s/mqdefault_6s.webp?du=3000&sqp=CLLipMUG&rs=AOn4CLCQio6flzNMGzD3ShxFZUNBOfeGMw",
+      thumbnail: "https://i.ytimg.com/vi/SFWPfq21x_s/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA07GY74ICYMs3JPBZQ1Z9moESOcQ",
       author: "Baseera",
       date: "2024-09-30"
     },
