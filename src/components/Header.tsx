@@ -11,11 +11,11 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onPageChange }) => {
 
   const menuItems = [
     { id: 'home', label: 'Home', icon: Home },
-    { id: 'about', label: 'About Us', icon: Users },
-    { id: 'events', label: 'Events', icon: Calendar },
     { id: 'resources', label: 'Resources', icon: BookOpen },
-    { id: 'join', label: 'Join Us', icon: UserPlus },
+    { id: 'events', label: 'Events', icon: Calendar },
     { id: 'gallery', label: 'Gallery', icon: Camera },
+    { id: 'about', label: 'About Us', icon: Users },
+    { id: 'join', label: 'Join Us', icon: UserPlus },
     { id: 'contact', label: 'Contact', icon: Mail },
   ];
 
@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onPageChange }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-3" onClick={() => onPageChange('home')}>
             <img 
               src="/SEU dawah circle (1).png" 
               alt="SEU Dawah Circle Logo" 

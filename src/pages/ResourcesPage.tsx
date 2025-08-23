@@ -20,15 +20,15 @@ const ResourcesPage: React.FC = () => {
 
   const resources: Resource[] = [
     {
-      id: 1,
-      title: "হাসবুনাল্লা-হু ওয়া নি'মাল ওয়াকীল",
-      description: "A comprehensive guide to understanding the fundamental pillars of Islamic faith and practice.",
-      type: "article",
-      category: "Spritual",
-      url: "https://hoytoba.com/hasbunallahu-wanikmal-wakil",
-      thumbnail: "https://cms.bibijaan.com/wp-content/uploads/2018/07/46849201_439181363571957_2039943289020350464_n.jpg",
-      author: "Bujhtesina Bishoyta",
-      date: "2025-01-15"
+      id: 6,
+      title: "Bangladesh 2.0",
+      description: "Learn about the principles of Islamic banking and finance in the modern world.",
+      type: "video",
+      category: "Islamic Socity",
+      url: "https://www.youtube.com/watch?v=AM-i6Qc-KxE",
+      thumbnail: "https://i.ytimg.com/an_webp/AM-i6Qc-KxE/mqdefault_6s.webp?du=3000&sqp=CPTWpMUG&rs=AOn4CLB2SJxkVZtnzlEco-aiOF9J4P208A",
+      author: "Dr. Sarah Ahmed",
+      date: "2024-02-01"
     },
     {
       id: 2,
@@ -43,47 +43,47 @@ const ResourcesPage: React.FC = () => {
     },
     {
       id: 3,
-      title: "Islamic Ethics in Modern Life",
+      title: "সখী ভালোবাসা কারে কয়",
       description: "A detailed PDF guide on applying Islamic ethical principles in contemporary society.",
-      type: "pdf",
+      type: "article",
       category: "Islamic Ethics",
-      url: "#",
-      thumbnail: "https://images.pexels.com/photos/6210959/pexels-photo-6210959.jpeg?auto=compress&cs=tinysrgb&w=400",
-      author: "Prof. Fatima Rahman",
-      date: "2024-01-10"
+      url: "https://hoytoba.com/sokhi-valobasha-kare-koy",
+      thumbnail: "https://cms.bibijaan.com/wp-content/uploads/2011/10/sokhi-valobasha-kare-koy.jpg",
+      author: " স্বপ্নচারী আব্দুল্লাহ",
+      date: "2011-01-10"
     },
     {
       id: 4,
-      title: "The Life of Prophet Muhammad (PBUH)",
+      title: "ডোপামিন ডিটক্স: নাফসকে নিয়ন্ত্রণে আনার উপায়",
       description: "An inspiring video series about the life and teachings of Prophet Muhammad (Peace be upon him).",
       type: "video",
-      category: "Seerah",
-      url: "#",
-      thumbnail: "https://images.pexels.com/photos/8923773/pexels-photo-8923773.jpeg?auto=compress&cs=tinysrgb&w=400",
+      category: "Productive",
+      url: "https://youtu.be/SFWPfq21x_s?si=Bf8E14xan5vhL4R2",
+      thumbnail: "https://i.ytimg.com/an_webp/SFWPfq21x_s/mqdefault_6s.webp?du=3000&sqp=CLLipMUG&rs=AOn4CLCQio6flzNMGzD3ShxFZUNBOfeGMw",
       author: "Sheikh Abdullah",
       date: "2024-01-25"
     },
     {
       id: 5,
-      title: "Daily Duas and Supplications",
+      title: "সংশয়",
       description: "A collection of essential daily prayers and supplications with Arabic text and translations.",
-      type: "pdf",
+      type: "article",
       category: "Duas",
-      url: "#",
-      thumbnail: "https://images.pexels.com/photos/8923776/pexels-photo-8923776.jpeg?auto=compress&cs=tinysrgb&w=400",
+      url: "https://hoytoba.com/pearl/songshoy",
+      thumbnail: "https://cms.bibijaan.com/wp-content/uploads/2020/01/behind-prison-bars.jpg",
       author: "Islamic Center",
       date: "2024-01-30"
     },
     {
-      id: 6,
-      title: "Understanding Islamic Finance",
-      description: "Learn about the principles of Islamic banking and finance in the modern world.",
+      id: 1,
+      title: "হাসবুনাল্লা-হু ওয়া নি'মাল ওয়াকীল",
+      description: "A comprehensive guide to understanding the fundamental pillars of Islamic faith and practice.",
       type: "article",
-      category: "Islamic Finance",
-      url: "#",
-      thumbnail: "https://images.pexels.com/photos/6210958/pexels-photo-6210958.jpeg?auto=compress&cs=tinysrgb&w=400",
-      author: "Dr. Sarah Ahmed",
-      date: "2024-02-01"
+      category: "Spritual",
+      url: "https://hoytoba.com/hasbunallahu-wanikmal-wakil",
+      thumbnail: "https://cms.bibijaan.com/wp-content/uploads/2018/07/46849201_439181363571957_2039943289020350464_n.jpg",
+      author: "Bujhtesina Bishoyta",
+      date: "2025-01-15"
     }
   ];
 

@@ -60,17 +60,6 @@ const EventsPage: React.FC = () => {
       image: "https://images.pexels.com/photos/6210959/pexels-photo-6210959.jpeg?auto=compress&cs=tinysrgb&w=800",
       type: "past",
       attendees: 120
-    },
-    {
-      id: 5,
-      title: "Islamic History Seminar",
-      date: "2024-01-05",
-      time: "1:00 PM - 3:00 PM",
-      location: "SEU Conference Room",
-      description: "Exploring the rich history of Islam and its contributions to civilization.",
-      image: "https://images.pexels.com/photos/8923776/pexels-photo-8923776.jpeg?auto=compress&cs=tinysrgb&w=800",
-      type: "past",
-      attendees: 35
     }
   ];
 

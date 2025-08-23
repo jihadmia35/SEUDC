@@ -10,9 +10,9 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/SEU dawah circle (1).png" 
+                src="/whiteLogo.png" 
                 alt="SEU Dawah Circle Logo" 
-                className="w-10 h-10 object-contain"
+                className="w-12 h-12 object-contain"
               />
               <div>
                 <h3 className="text-lg font-bold">SEU Dawah Circle</h3>
