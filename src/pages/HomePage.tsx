@@ -165,41 +165,66 @@ const HomePage: React.FC<HomePageProps> = ({ onPageChange }) => {
       </section>
 
       {/* Affiliate Logos Section */}
-{/* Affiliate Logos Section */}
-<section className="py-12 bg-white border-t border-gray-100 overflow-hidden">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 className="text-center text-2xl font-bold text-gray-700 mb-8">
-      Our Partners & Affiliates
-    </h2>
-    <div className="flex justify-center overflow-hidden">
-      <div className="flex space-x-12 animate-slide-logos">
-        <a href="https://www.youtube.com/@islamzonebd" target="_blank" rel="noopener noreferrer">
-          <img src="/images.jpeg" alt="Islam Zone" className="h-12 object-contain hover:scale-105 transition-transform" />
-        </a>
-        <a href="https://hoytoba.com/" target="_blank" rel="noopener noreferrer">
-          <img src="/logo_v1.5_round.png" alt="Hoytoba" className="h-12 object-contain hover:scale-105 transition-transform" />
-        </a>
-        <a href="https://sholo.org/" target="_blank" rel="noopener noreferrer">
-          <img src="/image.webp" alt="Sholo" className="h-12 object-contain hover:scale-105 transition-transform" />
-        </a>
-        <a href="https://www.facebook.com/youthfoundationtalora" target="_blank" rel="noopener noreferrer">
-          <img src="/youthfoundation.jpg" alt="Youthfoundation" className="h-12 object-contain hover:scale-105 transition-transform" />
-        </a>
-        <a href="https://seanpublication.com/" target="_blank" rel="noopener noreferrer">
-          <img src="/sean-logo.png" alt="Amazon" className="h-12 object-contain hover:scale-105 transition-transform" />
-        </a>
-        <a href="https://www.youtube.com/@BaseeraMedia" target="_blank" rel="noopener noreferrer">
-          <img src="/baseera_logo.jpg" alt="Baseera" className="h-12 object-contain hover:scale-105 transition-transform" />
-        </a>
-        <a href="https://www.youtube.com/@RaindropsmediaOrg2015" target="_blank" rel="noopener noreferrer">
-          <img src="/raidrops_logo.jpg" alt="Raidrops" className="h-12 object-contain hover:scale-105 transition-transform" />
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
+      <section className="py-12 bg-white border-t border-gray-100 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-center text-2xl font-bold text-gray-700 mb-8">
+            Our Partners & Affiliates
+          </h2>
+          <div className="flex justify-center overflow-x-auto scrollbar-hide">
+            <div className="flex space-x-4 sm:space-x-6 md:space-x-8 animate-slide-logos">
+              <a href="https://www.youtube.com/@islamzonebd" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/images.jpeg"
+                  alt="Islam Zone"
+                  className="h-10 sm:h-12 md:h-14 object-contain hover:scale-105 transition-transform"
+                />
+              </a>
+              <a href="https://hoytoba.com/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/logo_v1.5_round.png"
+                  alt="Hoytoba"
+                  className="h-10 sm:h-12 md:h-14 object-contain hover:scale-105 transition-transform"
+                />
+              </a>
+              <a href="https://sholo.org/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/image.webp"
+                  alt="Sholo"
+                  className="h-10 sm:h-12 md:h-14 object-contain hover:scale-105 transition-transform"
+                />
+              </a>
+              <a href="https://www.facebook.com/youthfoundationtalora" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/youthfoundation.jpg"
+                  alt="Youthfoundation"
+                  className="h-10 sm:h-12 md:h-14 object-contain hover:scale-105 transition-transform"
+                />
+              </a>
+              <a href="https://seanpublication.com/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/sean-logo.png"
+                  alt="Sean Publication"
+                  className="h-10 sm:h-12 md:h-14 object-contain hover:scale-105 transition-transform"
+                />
+              </a>
+              <a href="https://www.youtube.com/@BaseeraMedia" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/baseera_logo.jpg"
+                  alt="Baseera"
+                  className="h-10 sm:h-12 md:h-14 object-contain hover:scale-105 transition-transform"
+                />
+              </a>
+              <a href="https://www.youtube.com/@RaindropsmediaOrg2015" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/raidrops_logo.jpg"
+                  alt="Raidrops"
+                  className="h-10 sm:h-12 md:h-14 object-contain hover:scale-105 transition-transform"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
