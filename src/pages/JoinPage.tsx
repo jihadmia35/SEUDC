@@ -146,7 +146,7 @@ const JoinPage: React.FC = () => {
             </p>
             
             <a
-              href="https://forms.gle/your-google-form-id"
+              href="https://forms.gle/RLPqj7psA8bkwRzw5"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-gradient-to-r from-teal-600 to-amber-600 text-white py-4 px-6 rounded-lg hover:from-teal-700 hover:to-amber-700 transition-all duration-300 font-semibold text-lg flex items-center justify-center space-x-2 shadow-lg transform hover:scale-105"
