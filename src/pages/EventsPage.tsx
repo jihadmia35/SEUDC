@@ -19,14 +19,14 @@ const EventsPage: React.FC = () => {
   const events: Event[] = [
     {
       id: 1,
-      title: "Islamic Knowledge Workshop",
-      date: "2024-02-15",
-      time: "2:00 PM - 4:00 PM",
-      location: "SEU Auditorium",
+      title: "সিরাত ﷺ পাঠ প্রতিযোগিতা ",
+      date: "comming soon",
+      time: "comming soon",
+      location: "comming soon",
       description: "Join us for an enlightening workshop on Islamic principles and their application in modern life.",
-      image: "https://images.pexels.com/photos/8923775/pexels-photo-8923775.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://i.pinimg.com/736x/14/0f/25/140f25cf88881c52d64f4bd3b3f48a79.jpg",
       type: "upcoming",
-      attendees: 45
+      //attendees: 0
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ const EventsPage: React.FC = () => {
       date: "2025-04-13",
       time: "12:00 PM - 04:00 PM",
       location: "SEU Main Campus to Shahbagh",
-      description: "he students of Southeast University and Bangladesh University of Textiles (BUTEX) united for a powerful cause — the MARCH FOR GAZA. From Tejgaon to Shahbagh, we walked together in solidarity with the oppressed, raising our voices against injustice and calling for peace in Gaza.",
+      description: "The students of Southeast University and Bangladesh University of Textiles (BUTEX) united for a powerful cause — the MARCH FOR GAZA. From Tejgaon to Shahbagh, we walked together in solidarity with the oppressed, raising our voices against injustice and calling for peace in Gaza.",
       image: "/marchForGaza.jpg",
       type: "past",
       attendees: 700
@@ -51,15 +51,15 @@ const EventsPage: React.FC = () => {
       attendees: 25
     },
     {
-      id: 4,
-      title: "Community Iftar",
-      date: "2024-03-25",
-      time: "6:30 PM - 8:00 PM",
-      location: "SEU Cafeteria",
-      description: "Breaking fast together as a community during the holy month of Ramadan.",
-      image: "https://images.pexels.com/photos/6210959/pexels-photo-6210959.jpeg?auto=compress&cs=tinysrgb&w=800",
+      id: 3,
+      title: "শাতিম এবং সকল প্রকার জুলুমের বিরুদ্ধে বিক্ষোভ মিছিল",
+      date: "2025-02-25",
+      time: "12:50 PM - 2:00 PM",
+      location: "SEU Campus",
+      description: "শাতিম এবং সকল প্রকার জুলুমের বিরুদ্ধে গর্জে ওঠা নবী প্রেমীকদের ঈমানের দাবী",
+      image: "/bikhob.jpg",
       type: "past",
-      attendees: 120
+      attendees: 250
     }
   ];
 
@@ -181,8 +181,11 @@ const EventsPage: React.FC = () => {
                 </div>
 
                 {event.type === 'upcoming' && (
-                  <button className="w-full bg-teal-600 text-white py-2 px-4 rounded-lg hover:bg-teal-700 transition-colors duration-300 font-medium">
-                    Register Now
+                  <button
+                    //onClick={() => window.open("https://forms.gle/your-google-form-id", "_blank")}
+                    className="w-full bg-teal-600 text-white py-2 px-4 rounded-lg hover:bg-teal-700 transition-colors duration-300 font-medium"
+                  >
+                    Registration Will Open Soon
                   </button>
                 )}
               </div>

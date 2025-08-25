@@ -30,14 +30,6 @@ const GalleryPage: React.FC = () => {
       category: "Events",
       description: "Beautiful moments from our Quran recitation competition",
       date: "2024-01-20"
-    },
-    {
-      id: 3,
-      src: "https://images.pexels.com/photos/6210959/pexels-photo-6210959.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Community Iftar",
-      category: "Events",
-      description: "Breaking fast together during Ramadan",
-      date: "2024-03-25"
     }
   ];
 
