@@ -20,7 +20,7 @@ const ResourcesPage: React.FC = () => {
 
   const resources: Resource[] = [
     {
-      id: 6,
+      id: 1,
       title: "Bangladesh 2.0",
       description: "অবিস্মরণীয় এই গণজাগরণ পরবর্তি সময়ে, মুসলিমদের যা করতে হবে।",
       type: "video",
@@ -32,14 +32,14 @@ const ResourcesPage: React.FC = () => {
     },
     {
       id: 2,
-      title: "হারানো খিলাফত",
-      description: "উনিশ শতকের শেষলগ্নে। উসমানীয় খিলাফতের একদম ভঙ্গুর অবস্থা। সেই সময় ফ্রান্স সরকার মুহাম্মাদ মুস্তফা সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম কে নিয়ে একটি ব্যঙ্গাত্মক নাটক মঞ্চস্থ করার পরিকল্পনা করে",
+      title: "ছাত্রজীবন সুখের জীবন!",
+      description: "আচ্ছা, ছাত্রজীবন মানেই কি রাতদিন এক করে পাঠ্যবইয়ে ডুবে থাকা? কিংবা জীবনের সব আনন্দকে বিদায় জানিয়ে একঘেয়েমি পড়াশোনার যিকির তোলা?",
       type: "article",
-      category: "History",
-      url: "https://hoytoba.com/history/harano-khilafot",
-      thumbnail: "https://cms.bibijaan.com/wp-content/uploads/2020/04/harano-khilafot.jpg",
-      author: "আহমাদ উসমান",
-      date: "2020-01-20"
+      category: "Productive",
+      url: "https://sholo.org/chatrojibon-sukher-jibon",
+      thumbnail: "https://cms.sholo.info/wp-content/uploads/2022/03/studen-life.jpg",
+      author: "আসাদুল্লাহ আল গালিব",
+      date: "2022-03-22"
     },
     {
       id: 3,
@@ -75,7 +75,7 @@ const ResourcesPage: React.FC = () => {
       date: "2024-01-30"
     },
     {
-      id: 1,
+      id: 6,
       title: "হাসবুনাল্লা-হু ওয়া নি'মাল ওয়াকীল",
       description: "কট্টর ছাত্রলীগার একজনকে চিনতাম। আমরা যখন হলে উঠি তখন থেকেই একনামে তাকে সবাই চিনত। সবাই তার ভয়ে তটস্থ থাকতাম। ঢাবির হলে সিট বরাদ্ধ পেয়ে আরাম করে সেই সিটে উঠে পড়ার সিস্টেম নেই, ফার্স্ট ইয়ারে তো কল্পনাই করা যায় না",
       type: "article",
@@ -84,6 +84,28 @@ const ResourcesPage: React.FC = () => {
       thumbnail: "https://cms.bibijaan.com/wp-content/uploads/2018/07/46849201_439181363571957_2039943289020350464_n.jpg",
       author: "Bujhtesina Bishoyta",
       date: "2025-01-15"
+    },
+    {
+      id: 7,
+      title: "হারানো খিলাফত",
+      description: "উনিশ শতকের শেষলগ্নে। উসমানীয় খিলাফতের একদম ভঙ্গুর অবস্থা। সেই সময় ফ্রান্স সরকার মুহাম্মাদ মুস্তফা সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম কে নিয়ে একটি ব্যঙ্গাত্মক নাটক মঞ্চস্থ করার পরিকল্পনা করে",
+      type: "article",
+      category: "History",
+      url: "https://hoytoba.com/history/harano-khilafot",
+      thumbnail: "https://cms.bibijaan.com/wp-content/uploads/2020/04/harano-khilafot.jpg",
+      author: "আহমাদ উসমান",
+      date: "2020-01-20"
+    },
+    {
+      id: 8,
+      title: "ঈদ সংখ্যা মার্চ-এপ্রিল ২০২৫",
+      description: "ঈদ মানেই খুশি, সুস্বাদু খাবার, নতুন জামা, আত্মীয়স্বজনদের আনাগোনা আর… সালামি! হ্যাঁ, ঠিক ধরেছ—ঈদের সবচেয়ে আকর্ষণীয় দিকগুলোর একটি হলো সালামি পাওয়া। সালাম দিয়ে ‘ঈদ মুবারক’ বললেই আত্মীয়রা হাসিমুখে হাতে ধরিয়ে দেন একদম টাটকা, কচকচে নতুন (অথবা পুরোনো) টাকার নোট। আর তার সাথে থাকে সেই চিরচেনা উপদেশ—’বাবা, সব টাকা একবারে খরচ করে ফেলো না!’ কিন্তু প্রতিবার তুমি তা-ই করো।",
+      type: "pdf",
+      category: "History",
+      url: "https://drive.google.com/file/d/1SADCacHc8NspeRncIoPIle9Rg4vMIipl/view",
+      thumbnail: "https://cms.sholo.info/wp-content/uploads/2025/03/IMG-20250514-WA0048.jpg",
+      author: "আহমাদ উসমান",
+      date: "2020-01-20"
     }
   ];
 
